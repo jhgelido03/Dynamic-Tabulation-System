@@ -35,7 +35,7 @@ if(mysqli_num_rows($csql)>0)
     echo "<script>Swal.fire({
         position: 'center',
         iconHtml:'<i class=\"fa-solid fa-circle-xmark\" style=\"color: red ;\"></i>',
-        title: 'Username Already Exists',
+        title: 'Username Already Exists!!!!',
         showConfirmButton: true,
        })
        document.querySelectorAll('button.swal2-confirm').forEach(a=>a.onclick=function(){window.parent.location='admin_committee_view.php?id=$eid'});
